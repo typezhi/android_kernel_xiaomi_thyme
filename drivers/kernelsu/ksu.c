@@ -2,6 +2,7 @@
 #include "linux/fs.h"
 #include "linux/kobject.h"
 #include "linux/module.h"
+#include <linux/export-internal.h>  // 为 MODULE_IMPORT_NS 提供定义
 #include "linux/workqueue.h"
 
 #include "allowlist.h"
